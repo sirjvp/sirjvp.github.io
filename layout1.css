@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+}
+#logo{
+    float: left;
+}
+#navigator{
+    float: right;
+    vertical-align: middle;
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#navigator a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+#navigator .on{
+    text-decoration-line: underline;
+}
+#navigator a:hover{
+    text-decoration-line: underline;
+
+}
+#title p{
+    margin: auto;
+    font-family: 'Patrick Hand SC';
+}
+#title{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 120px;
+    padding-bottom: 160px;
+    background-image: url('3.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    clear: both;
+}
+#one{
+    color:gold; 
+    font-size: 70px;
+}
+#two{
+    color:white;
+    font-weight: bold;
+    font-size: 50px;
+}
+#three{
+    color:white;
+    font-size: 50px;
+}
+#four{
+    font-size: 50px;
+    text-align: center;
+}
+#five{
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px;
+}
+.pic{
+    margin: auto;
+    width: 370px;
+    height: 330px;
+}
+.pic2{
+    width: 400px;
+    height: auto;
+    margin-top: -15%;
+}
+#transition{
+    background-color:cornsilk;
+    padding: 10px;
+    clear: both;
+}
+#about{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 370px;
+    background-image: url('6.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    font-family: 'Patrick Hand SC';
+}
+
+@media screen and (max-width: 1200px) {
+    #navigator a{
+        margin-right: 20px;
+    }
+    #title{
+        background-image: url('3.png');
+    }
+    #title p{
+        margin: auto;
+        font-family: 'Patrick Hand SC';
+    }
+    #one{
+        font-size: 60px;
+    }
+    #two{
+        font-size: 40px;
+    }
+    #three{
+        font-size: 40px;
+    }
+    #about{
+        background-image: url('6.png');
+    }
+    .pic2{
+        width: 300px;
+        height: auto;
+        margin-top: -12%;
+    }
+    #four{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    #five{
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+  
+  }
+
+@media screen and (max-width: 1000px) {
+    #navigator{
+        font-size: 20px;
+    }
+    #navigator a{
+        margin-right: 20px;
+    }
+    #title{
+        background-image: url('15.png');
+    }
+    #about{
+        background-image: url('18.png');
+    }
+    .pic2{
+        display: none;
+    }
+    #four{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+    #five{
+        font-size: 25px;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+  
+  }

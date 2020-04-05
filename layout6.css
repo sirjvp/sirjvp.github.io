@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+#logo{
+    float: left;
+}
+#navigator{
+    float: right;
+    vertical-align: middle;
+    background-color: white;
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#navigator a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+#navigator .on{
+    text-decoration-line: underline;
+}
+#navigator a:hover{
+    text-decoration-line: underline;
+}
+#title{
+    margin: auto;
+    padding-top: 170px;
+    padding-bottom: 650px;
+    background-image: url('1.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    font-family: 'Patrick Hand SC';
+    clear: both;
+}
+#image1{
+    float: left;
+    padding-left: 25%;
+    margin: auto;
+    width: 250px;
+    height: auto;
+}
+#text{
+    float: left;
+    padding-left: 3%;
+    width: 30%;
+}
+#topic{
+    margin: auto;
+    font-size: 40px;
+    color: black;
+}
+#content{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+#source{
+    color: grey;
+    font-size: 10px;
+}
+#btnMore{
+    float: left;
+    background-color: white;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: black;
+    text-decoration: none;
+}
+#transition{
+    background-color:cornsilk;
+    padding: 10px;
+    clear: both;
+}

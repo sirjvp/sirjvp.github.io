@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+#logo{
+    float: left;
+}
+#navigator{
+    float: right;
+    vertical-align: middle;
+    background-color: white;
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#navigator a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+#navigator .on{
+    text-decoration-line: underline;
+}
+#navigator a:hover{
+    text-decoration-line: underline;
+}
+#title p{
+    margin: auto;
+    font-family: 'Patrick Hand SC';
+    font-size: 50px;
+}
+#title{
+    padding-bottom: 725px;
+    background-image: url('13.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    clear: both;
+}
+#title2{
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 725px;
+    background-image: url('13.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    clear: both;
+}
+#context{
+    margin-top: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+#section{
+    width: 350px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 8px grey;
+    margin-bottom: 30px;
+    float: left;
+}
+#space1{
+    margin-left: 22%;
+    float: left;
+}
+#space2{
+    margin-left: 9.5%;
+    float: left;
+}
+#container{
+    padding: 20px;
+}
+#container img{
+    width: auto;
+    height: 220px;
+}
+#footer{
+    background-color: white;
+    
+}
+#btnNext{
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    margin-top: 50px;
+    color: blue;
+    margin-left: 79.2%;
+}
+#btnBack{
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    margin-top: 50px;
+    color: blue;
+    margin-left: 62.5%;
+}
+#transition{
+    background-color:cornsilk;
+    padding: 10px;
+    clear: both;
+}

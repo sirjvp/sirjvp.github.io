@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+#logo{
+    float: left;
+}
+#navigator{
+    float: right;
+    vertical-align: middle;
+    background-color: white;
+    font-family: 'Patrick Hand SC';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+#navigator a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+#navigator .on{
+    text-decoration-line: underline;
+}
+#navigator a:hover{
+    text-decoration-line: underline;
+}
+#text{
+    padding-top: 13%;
+    padding-bottom: 13%;
+    background-image: url('17.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    clear: both;
+}
+#text p{
+    margin: auto;
+    font-family: 'Patrick Hand SC';
+    font-size: 20px;
+}
+#mail{
+    width: 80px;
+    height: 80px;
+    margin-left: 47.25%;
+    margin-top: 4%;
+}
+#contact{
+    margin-top: -2%;
+    margin-left: 20%;
+    text-align: left;
+}
+#contact .link{
+    color: blue;
+    text-decoration: none;
+}
+#contact .link:hover{
+    text-decoration: underline;
+}
+#email{
+    margin-left: 40%;
+    margin-top: -3%;
+    float: left;
+}
+#email input{
+    width: 300px;
+}
+#email textarea{
+    width: 300px;
+    height: 100px;
+}
+#transition{
+    background-color:cornsilk;
+    padding: 10px;
+    clear: both;
+}
+#footer{
+    background-color: white;
+}
+.btnSend{
+    margin-top: 240px;
+    margin-left: -175px;
+}

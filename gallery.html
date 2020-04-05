@@ -1,0 +1,134 @@
+<HTML>
+
+<HEAD>
+    <Title>My Portfolio</Title>
+    <link type="text/css" rel="stylesheet" href="layout3.css">
+    <link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+    <script src="http://code.jquery.com/jquery.js" type="text/javascript"></script>
+</HEAD>
+
+<BODY>
+    <div id="logo">
+        <img src="logo.png" width="70px" height="70px"></img>
+    </div>
+    <div id="navigator">
+        <a href="index.html" target="/blank">
+            Home
+        </a>
+        <a href="project.html" target="/blank">
+            My Project
+        </a>
+        <a class="on" href="gallery.html" target="/blank">
+            Gallery
+        </a>
+        <a href="interest.html" target="/blank">
+            Interest
+        </a>
+        <a href="contact.html" target="/blank">
+            Contact
+        </a>
+    </div>
+    <div id="title">
+        <button id="btnNext">Next</button><br>
+        <div id="context">
+            <div id="space1">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j10.jpg"></img>
+                </div>
+            </div>
+            <div id="space2">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j9.jpg"></img>
+                </div>
+            </div>
+            <div id="space1">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j6.jpg"></img>
+                </div>
+            </div>
+            <div id="space2">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j14.jpg"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="title2">
+        <button id="btnBack">Back</button><br>
+        <div id="context">
+            <div id="space1">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j11.jpg"></img>
+                </div>
+            </div>
+            <div id="space2">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j16.jpg"></img>
+                </div>
+            </div>
+            <div id="space1">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j15.jpg"></img>
+                </div>
+            </div>
+            <div id="space2">
+                &nbsp;
+            </div>
+            <div id="section">
+                <div id="container">
+                    <img src="j17.jpg"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="transition"></div>
+    <footer>
+
+    </footer>
+    <script>
+        $(title2).hide();
+        $("#btnNext").click(
+
+            function () {
+
+                $(title).hide();
+                $(title2).show();
+
+            }
+
+        );
+        $("#btnBack").click(
+
+            function () {
+
+                $(title2).hide();
+                $(title).show();
+
+            }
+
+        );
+    </script>
+</BODY>
+
+</HTML>
