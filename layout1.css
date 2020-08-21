@@ -71,7 +71,7 @@ body{
 .pic2{
     width: 400px;
     height: auto;
-    margin-top: -15%;
+    margin-top: -13%;
 }
 #transition{
     background-color:cornsilk;
@@ -82,7 +82,7 @@ body{
     vertical-align: middle;
     text-align: center;
     padding-top: 80px;
-    padding-bottom: 370px;
+    padding-bottom: 340px;
     background-image: url('6.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
